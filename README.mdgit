@@ -1,0 +1,2 @@
+"# group1"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/rent4me/group1.gitgit push -u origin master
+"# group1"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/rent4me/group1.gitgit push -u origin master
