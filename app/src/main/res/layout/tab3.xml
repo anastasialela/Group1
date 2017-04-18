@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.rent4me.MainActivity$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.hp.rent4me.MainActivity$PlaceholderFragment"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButton"
+            android:layout_marginTop="11dp"
+            android:dropDownWidth="match_parent"
+            android:text="CONTACT INFORMATION"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="11dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="edit profile"
+            android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Muhammad_renter@rent4me.com"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:ignore="ContentDescription" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButton"
+            android:layout_marginTop="11dp"
+            android:dropDownWidth="match_parent"
+            android:text="CONTACT INFORMATION"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/autoCompleteTextView"
+            android:layout_marginTop="18dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Muhammad"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="19dp"
+            android:text="RENTAL RESUME"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/autoCompleteTextView3"
+            android:layout_marginTop="14dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:text="When can you move in ?"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How Many renters will live here ?"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText"
+            android:layout_below="@+id/autoCompleteTextView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignLeft="@+id/autoCompleteTextView4"
+            android:layout_alignStart="@+id/autoCompleteTextView4" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do You Need Full Furniture ?"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_below="@+id/autoCompleteTextView5"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
